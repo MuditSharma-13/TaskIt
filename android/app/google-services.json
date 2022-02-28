@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445721013620",
+    "project_id": "nudger-cce1a",
+    "storage_bucket": "nudger-cce1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445721013620:android:2dc74cd7dab786cf611021",
+        "android_client_info": {
+          "package_name": "com.example.nudger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445721013620-8qr5o8jta57gje2fqt38cb19obepj9nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoSHSyrfSvNCCCmax-SCMAJHVOPpLN4Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445721013620-8qr5o8jta57gje2fqt38cb19obepj9nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
