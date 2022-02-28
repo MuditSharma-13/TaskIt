@@ -202,7 +202,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
       key: _globalKey,
       appBar: AppBar(
         title: Padding(
-          padding: const EdgeInsets.all(90.0),
+          padding: const EdgeInsets.all(80.0),
           child: Container(
               child: Text(
             'TaskIt',
@@ -232,14 +232,21 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                       style: TextStyle(fontSize: 20),
                     ),
                     IconButton(
-                        onPressed: () {
-                          _deleteFormDialog(context, _categoryList[index].id);
-                        },
-                        icon: Icon(
-                          Icons.delete,
-                          color: Colors.red,
-                        ))
+                      onPressed: () {
+                        _deleteFormDialog(context, _categoryList[index].id);
+                      },
+                      icon: Icon(
+                        Icons.delete,
+                        color: Colors.red,
+                      ),
+                    ),
                   ],
+                ),
+                subtitle: Padding(
+                  padding: const EdgeInsets.only(bottom: 5.0),
+                  child: Text(
+                    _categoryList[index].description.toString(),
+                  ),
                 ),
               ),
             ),

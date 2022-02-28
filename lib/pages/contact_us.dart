@@ -20,20 +20,20 @@ class ContactUs extends StatelessWidget {
           children: [
             Text(
               'In case of any suggestions or issues,',
-              style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             Text('feel free to contact us on:',
-                style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold)),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(
               height: 20,
             ),
             Text('Contact no. - 9667626964',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(
               height: 10,
             ),
             Text('Email - f20212319@pilani.bits-pilani.ac.in',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold))
           ],
         ),
       ),
