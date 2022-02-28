@@ -38,9 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get_storage:
   get:
-  intl:
-  google_fonts:
-  date_picker_timeline:
+  intl:  
   
 
 dev_dependencies:
